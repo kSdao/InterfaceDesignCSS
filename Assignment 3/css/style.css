@@ -1,0 +1,219 @@
+body{
+    margin: 0px;
+    scroll-behavior: smooth;
+  }
+  h1, h2, h3, h4, h5, h6{
+    font-family: 'Delicious Handrawn', cursive;
+  }
+  p,a,li,figcaption{
+    font-family: 'Delicious Handrawn', cursive;
+  }
+  .backroundimg{
+    width:100%;
+    height:auto;
+    border-bottom: ridge #bd7018 1vh;
+    border-top: ridge #bd7018 1vh;
+  }
+  .masthead-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .masthead-text h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    color: #bd7018;
+    text-shadow: .2vw .1vw .3vw rgba(0,0,0,.9);
+    letter-spacing: .3rem;
+    text-decoration: underline;
+  }
+
+.proddis{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: linear-gradient(-50deg, bisque 40%, #ec9a3d 50%);
+    margin-top: -1.5rem; 
+    margin-bottom: -1.5rem; 
+}
+.section-one{
+    grid-column: 1;
+    text-align: center;
+    margin-top:2rem;
+    color: #fff;
+    text-shadow: .2vw .1vw .3vw rgba(0,0,0,.9);
+    font-size: 2rem;
+}
+.section-two{
+    grid-column: 2;
+    text-align: center;
+    margin-top:2rem;
+    color: #fff;
+    text-shadow: .2vw .1vw .3vw rgba(0,0,0,.9);
+    font-size: 2rem;
+}
+.section-two p{
+font-size: 1.8rem;
+text-decoration: none;
+padding-bottom: 2rem;
+}
+.section-one p{
+    font-size: 1.8rem;
+    margin-top: 2.2rem;
+    padding-bottom: 2rem;
+}
+.section-one h2{
+    text-decoration: underline;
+    letter-spacing: .4rem;
+}
+.section-two h2{
+    text-decoration: underline;
+    letter-spacing: .4rem;
+}
+
+.round{
+    height:auto;
+    width: 10rem;
+}
+.filling{
+    height:auto;
+    width: 15rem;
+}
+
+.proddis-two{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    background: linear-gradient(50deg, bisque 40%, #ec9a3d 50%);
+    margin-top: -1.5rem; 
+    margin-bottom: -1.5rem; 
+    border-top: ridge #bd7018 1vh;
+}
+.section-three{
+    grid-column: 2;
+    text-align: center;
+    margin-top:2rem;
+    color: #fff;
+    text-shadow: .2vw .1vw .3vw rgba(0,0,0,.9);
+    font-size: 2rem;
+}
+.section-three p{
+    font-size: 1.8rem;
+    margin-top: 2.2rem;
+    padding-bottom: 2rem;
+}
+.section-three h2{
+    text-decoration: underline;
+    letter-spacing: .4rem;
+}
+.special{
+    height:auto;
+    width: 20rem;
+}
+
+footer{
+    width:100;
+    height:auto;
+    background-color: bisque;
+    background: linear-gradient(-50deg, bisque 40%, #ec9a3d 50%); 
+    border: ridge #bd7018 1vh;
+    margin-top: -.2vw;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+.footerlogo{
+    width:10vw;
+    height:auto;
+    padding:2vw;
+    grid-row: 1;
+    padding-bottom: 0;
+}
+.footerlogo:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+  }
+  .copyright{
+    grid-column: 1;
+   margin-left: 2.5vw;
+   grid-row: 2;
+
+  }
+
+.form {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border: .2rem solid #ccc;
+  border-radius: 2rem;
+  margin: 0 auto;
+  grid-row: 2;
+  margin-top: -5rem;
+  margin-bottom: 2rem;
+}
+
+.form h3{
+    margin-top: -.5rem;
+    color: #bd7018;
+    text-decoration: underline;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 0.5rem;
+  border-radius: 2rem;
+  border: none;
+  margin-bottom: 1rem;
+  flex-basis: calc(50% - 1rem);
+  font-size: 1rem;
+  background-color: #e7e7e7;
+}
+
+input[type="email"] {
+  width: 100%;
+}
+
+.inputs:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 255, 0.2);
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: rgb(252, 203, 144);
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0059b3;
+}
+
+.button:active {
+  transform: translateY(1px);
+  background-color: #004d99;
+}
+
+  .compinfo {
+    text-align: center;
+    grid-column: 3 / 4;
+    color: #FEFEFE;
+    text-shadow: .2vw .1vw .3vw rgba(0,0,0,.9);
+    font-size: .9vw;
+    grid-row: 2;
+    margin-top: -10vh;
+  }
+  
+  a:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+  }
