@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, inital-scale=1">
+<title>Contact page</title>
+<meta name="description" content="Final project Home Page">
+<meta name="robots" content= "noindex, nofollow">
+
+<!-- Add Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+<!-- second font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  
+<!-- add the CSS -->
+  <link href="css/contact.css" rel="stylesheet" type="text/css">  
+  <link href="css/header.css" rel="stylesheet" type="text/css">  
+  <link href="css/footer.css" rel="stylesheet" type="text/css">  
+
+<!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+<!-- note, all photos, text and media that isnt mine has been cited via comment above that media -->
+  
+</head>
+
+<header>
+    <nav class="header">
+     <img src="images/logo.png" alt="#" class="logo"></a>
+     <ul class="headlist">
+         <li class="listitem">
+             <a href="index.html" class="label">Home</a>
+         </li>
+         <li class="listitem">
+             <a href = "about.html" class="label">About</a>
+         </li>
+         <li class="listitem">
+             <a href = "contact.html" class="label">Contact</a>
+         </li>
+         <li class="listitem">
+             <a href = "product.html" class="label">Product</a>
+         </li>
+     </ul>
+    </nav>
+ </header>
+
+ <body>
+    <main>
+
+  <div class="container">
+    <div class="info">
+    <h2>Phone Number:</h2>
+    <p>249-877-8552</p>
+    <h2>Email @:</h2>
+    <p>OilGearsup@hotmail.com</p>
+    <h2>Office Hours:</h2>
+    <p>Monday-Sunday: 9am-5pm EST</p>
+    </div>
+    <!-- form inspiration from https://www.w3schools.com/howto/howto_css_contact_form.asp -->
+    <section class="form">
+      <form action="index.html">
+      
+    <label for="firstname" class="labels">First Name</label>
+    <input type="text" id="firstname" name="firstname" placeholder="First name here:" class="inputs">
+      
+    <label for="lastname" class="labels">Last Name</label>
+    <input type="text" id="lastname" name="lastname" placeholder="Last name here:" class="inputs">
+      
+  <label for="issue" class="labels">Issue</label>
+  <select id="issue" name="issue">
+  <option value="return">Returns</option>
+  <option value="faulty">Faulty Product</option>
+  <option value="promotions">Promotions</option>
+  <option value="other">Other</option>
+  </select>
+
+  <label for="email" class="labels">Email</label>
+    <input type="email" id="email" name="email" placeholder="Email here:" class="inputs">
+      
+          <label for="comments" class="labels">Comments</label>
+          <textarea id="comments" name="comments" placeholder="Write any additional comments here:" class="comments"></textarea>
+      
+          <input type="submit" value="Submit" class="button">
+      
+        </form>
+      </section>
+      </div>
+<!-- https://wallpapers.com/edmonton-oilers -->
+      <img src="images/contact.jpg" alt="#" class="aboutban">
+
+    </main>
+ </body>
+
+ <footer class="footer">
+    <div class="socials">
+      <a href="https://www.instagram.com/edmontonoilers/?hl=en"><i class="fa-brands fa-instagram fa-beat fa-2xl"></i></a>
+      <a href="https://www.youtube.com/oilers"><i class="fa-brands fa-youtube fa-beat fa-2xl"></i></a> 
+      <a href="https://twitter.com/EdmontonOilers?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-twitter fa-beat fa-2xl"></i> </a> 
+      <a href="https://www.facebook.com/Oilers.NHL/"><i class="fa-brands fa-facebook fa-beat fa-2xl"></i> </a> 
+      <h3 class="copyright"> All Rights Reserved Ⓒ 2023</h3>
+    </div>
+  </footer>
+
+  </html>
